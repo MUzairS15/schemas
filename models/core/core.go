@@ -50,8 +50,8 @@ type Endpoint = Text
 // EnvironmentId defines model for environment_id.
 type EnvironmentId = uuid.UUID
 
-// ID defines model for id.
-type ID = uuid.UUID
+// Id defines model for id.
+type Id = uuid.UUID
 
 // KubernetesServerID defines model for kubernetes_server_uuid.
 type KubernetesServerID = uuid.UUID
@@ -77,7 +77,7 @@ type OrganizationId = uuid.UUID
 // Price defines model for price.
 type Price = int32
 
-// Provider One of (meshery-cloud, github, google)
+// Provider One of (x-oapi-codegen-extra-tags-cloud, github, google)
 type Provider = string
 
 // RecordsPage defines model for recordsPage.
@@ -118,7 +118,7 @@ type UpdatedAt = time.Time
 type UserId = string
 
 // UserIds defines model for user_ids.
-type UserIds = []ID
+type UserIds = []Id
 
 // UserID defines model for user_uuid.
 type UserID = uuid.UUID

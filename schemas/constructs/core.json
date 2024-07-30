@@ -36,6 +36,11 @@
       "x-go-type-import": {
         "path": "github.com/gofrs/uuid"
       }
+    },
+    "time": {
+      "type": "string",
+      "format": "date-time",
+      "x-go-type-skip-optional-pointer": true
     }
   }
 }
